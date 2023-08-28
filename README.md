@@ -1,6 +1,18 @@
 # Antariksh-Mein-Bidaai
-
 A Full stack application made using NodeJS, ReactJS, MongoDB
+
+
+## Screenshorts
+
+Schedule your launches 
+![image](https://github.com/whynesspower/Antariksh-Mein-Bidaai/assets/77494053/de5d712e-edc4-465e-b13b-79a33ee60fef)
+
+
+See your the launches you have scheduled, abort or continue your expedition!
+![image](https://github.com/whynesspower/Antariksh-Mein-Bidaai/assets/77494053/e412b2fb-b01d-4e90-8078-835feeeb10a5)
+
+
+
 
 # Running the Project
 
