@@ -1,4 +1,4 @@
-name: NASA Project CI
+name: Antariksh Yatri CI
 on:
   push:
     branches: [master]
