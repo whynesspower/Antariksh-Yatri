@@ -19,8 +19,8 @@ A Full stack application made using NodeJS, ReactJS, MongoDB
 ## Docker
 
 1. Ensure you have the latest version of Docker installed
-2. Run `docker build -t nasa-project .`
-3. Run `docker run -it -p 8000:8000 nasa-project`
+2. Run `docker build -t Antariksh-Mein-Bidaai .`
+3. Run `docker run -it -p 8000:8000 Antariksh-Mein-Bidaai`
 
 ## Running the Tests
 
