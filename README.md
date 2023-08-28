@@ -1,4 +1,4 @@
-# spaceman-scheduler
+# Antariksh-Mein-Bidaai
 
 A Full stack application made using NodeJS, ReactJS, MongoDB
 
