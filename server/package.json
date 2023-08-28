@@ -1,7 +1,7 @@
 {
   "name": "nasa-project-api",
   "version": "1.0.0",
-  "description": "NASA Mission Control API",
+  "description": "Antariksh Yatri API",
   "main": "src/server.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
