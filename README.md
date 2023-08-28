@@ -40,3 +40,10 @@ To run any automated tests, run `npm test`. This will:
 
 - Run all the client-side tests: `npm test --prefix client`
 - Run all the server-side tests: `npm test --prefix server`
+
+## Demo Video 
+
+
+https://github.com/whynesspower/Antariksh-Yatri/assets/77494053/8863c440-eaad-4835-8a10-9589d2f7ddf3
+
+
