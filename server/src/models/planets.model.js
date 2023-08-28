@@ -41,3 +41,34 @@ function loadPlanetsData() {
       });
   });
 }
+
+function isHabitablePlanet(planet) {
+  return (
+    planet["koi_disposition"] === "CONFIRMED" &&
+    planet["koi_insol"] > 0.36 &&
+    planet["koi_insol"] < 1.11 &&
+    planet["koi_prad"] < 1.6
+  );
+}
+async function savePlanet(planet) {
+  try {
+    await planets.updateOne(
+      {
+        keplerName: planet.kepler_name,
+      },
+      {
+        keplerName: planet.kepler_name,
+      },
+      {
+        upsert: true,
+      }
+    );
+  } catch (err) {
+    console.error(`Could not save planet ${err}`);
+  }
+}
+
+module.exports = {
+  loadPlanetsData,
+  getAllPlanets,
+};
