@@ -1,0 +1,16 @@
+name: NASA Project CI
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+jobs:
+  build:
+    env:
+      CI: true
+      MONGO_URL: mongodb://localhost/nasa
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+        mongodb-version: ["4.4"]
+    runs-on: ubuntu-latest
