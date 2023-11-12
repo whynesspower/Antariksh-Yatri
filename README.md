@@ -1,4 +1,4 @@
-# Antariksh-Mein-Bidaai
+# Antariksh-Yari
 A Full stack application made using NodeJS, ReactJS, MongoDB
 
 
