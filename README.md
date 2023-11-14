@@ -1,5 +1,10 @@
 # Antariksh-Yari
-A Full stack application made using NodeJS, ReactJS, MongoDB
+
+## Hosted Link: http://65.0.134.163:8000/
+
+## It's hosted on an Amazon EC2 t2.micro instance via a docker image hosted on DockerHub repository 
+
+
 
 
 ## Screenshorts
